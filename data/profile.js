@@ -10,8 +10,8 @@ export const profile = {
   phone: "+91 63693 91891",
   phoneHref: "tel:+916369391891",
   // TODO: replace with your real profile links
-  linkedin: "https://www.linkedin.com/in/your-linkedin-id",
-  github: "https://github.com/your-github-id",
+  linkedin: "https://www.linkedin.com/in/jaya-surya-243449256/",
+  github: "https://github.com/Jaisurya022?tab=repositories",
   resume: "/Jai_Surya_Resume.pdf",
   photo: "/jai-surya.webp",
   siteUrl: "https://jaisurya.vercel.app",
@@ -48,10 +48,22 @@ export const projects = [
     name: "Effect-AI HireManage",
     kind: "B2B AI hiring platform",
     visual: "workflow",
-    stack: ["React.js", "Next.js", "Redux Toolkit", "Material UI", "WebSockets", "AI APIs"],
+    stack: [
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
+      "Material UI",
+      "WebSockets",
+      "AI APIs",
+    ],
     short:
       "A multi-tenant hiring platform that turns a job description into a complete interview plan, then tracks every candidate through to an offer.",
-    steps: ["JD upload", "SkillDNA generation", "Interview plan", "Interview guide"],
+    steps: [
+      "JD upload",
+      "SkillDNA generation",
+      "Interview plan",
+      "Interview guide",
+    ],
     points: [
       "Multi-tenant architecture with role-based access for Super Admin and Hiring Manager roles.",
       "A structured four-step hiring workflow — JD upload, SkillDNA generation, interview plan, interview guide — that removed manual hiring steps.",
@@ -94,7 +106,16 @@ export const projects = [
 export const skills = [
   {
     group: "Languages & frameworks",
-    items: ["JavaScript (ES6+)", "React.js", "Next.js", "Redux Toolkit", "Context API", "HTML5", "CSS3", "Material UI"],
+    items: [
+      "JavaScript (ES6+)",
+      "React.js",
+      "Next.js",
+      "Redux Toolkit",
+      "Context API",
+      "HTML5",
+      "CSS3",
+      "Material UI",
+    ],
   },
   {
     group: "APIs & real-time",
@@ -106,11 +127,27 @@ export const skills = [
   },
   {
     group: "Tools & platforms",
-    items: ["Git", "GitLab", "Bitbucket", "Postman", "AWS EC2", "Hostinger", "PuTTY", "Figma", "Zoho Sprints", "Asana"],
+    items: [
+      "Git",
+      "GitLab",
+      "Bitbucket",
+      "Postman",
+      "AWS EC2",
+      "Hostinger",
+      "PuTTY",
+      "Figma",
+      "Zoho Sprints",
+      "Asana",
+    ],
   },
   {
     group: "Practices",
-    items: ["Agile / Scrum", "Code reviews", "Performance optimisation", "Component-driven architecture"],
+    items: [
+      "Agile / Scrum",
+      "Code reviews",
+      "Performance optimisation",
+      "Component-driven architecture",
+    ],
   },
 ];
 
@@ -124,35 +161,107 @@ export const education = {
 // Where each skill was used — shown when a skill is selected in the Skills section.
 // `projects` are project slugs from the list above; `note` is one short line.
 export const skillDetails = {
-  "JavaScript (ES6+)": { note: "The language behind every feature I've shipped.", projects: ["hiremanage", "resume-fit", "ecademictube-chat"] },
-  "React.js": { note: "My main tool for building interfaces, in every production project.", projects: ["hiremanage", "resume-fit", "ecademictube-chat"] },
-  "Next.js": { note: "Routing, rendering and performance for the AI platforms.", projects: ["hiremanage", "resume-fit"] },
-  "Redux Toolkit": { note: "Predictable state for complex, multi-role and real-time apps.", projects: ["hiremanage", "ecademictube-chat"] },
-  "Context API": { note: "Lightweight shared state where Redux would be overkill.", projects: ["resume-fit"] },
-  HTML5: { note: "Semantic, accessible markup across every project.", projects: [] },
-  CSS3: { note: "Responsive layouts and custom styling alongside Material UI.", projects: [] },
-  "Material UI": { note: "Reusable, consistent component libraries.", projects: ["hiremanage", "resume-fit", "ecademictube-chat"] },
-  "REST APIs": { note: "Wiring AI parsing, matching and scoring APIs into the UI.", projects: ["hiremanage", "resume-fit"] },
-  WebSockets: { note: "Live evaluation updates without refreshing the page.", projects: ["hiremanage"] },
-  "Socket.io": { note: "Real-time messages, typing indicators and online presence.", projects: ["ecademictube-chat"] },
-  Razorpay: { note: "Payment gateway integration for e-commerce work.", projects: [] },
-  Stripe: { note: "Payment gateway integration for e-commerce work.", projects: [] },
-  JWT: { note: "Token-based sign-in and session handling.", projects: ["ecademictube-chat"] },
+  "JavaScript (ES6+)": {
+    note: "The language behind every feature I've shipped.",
+    projects: ["hiremanage", "resume-fit", "ecademictube-chat"],
+  },
+  "React.js": {
+    note: "My main tool for building interfaces, in every production project.",
+    projects: ["hiremanage", "resume-fit", "ecademictube-chat"],
+  },
+  "Next.js": {
+    note: "Routing, rendering and performance for the AI platforms.",
+    projects: ["hiremanage", "resume-fit"],
+  },
+  "Redux Toolkit": {
+    note: "Predictable state for complex, multi-role and real-time apps.",
+    projects: ["hiremanage", "ecademictube-chat"],
+  },
+  "Context API": {
+    note: "Lightweight shared state where Redux would be overkill.",
+    projects: ["resume-fit"],
+  },
+  HTML5: {
+    note: "Semantic, accessible markup across every project.",
+    projects: [],
+  },
+  CSS3: {
+    note: "Responsive layouts and custom styling alongside Material UI.",
+    projects: [],
+  },
+  "Material UI": {
+    note: "Reusable, consistent component libraries.",
+    projects: ["hiremanage", "resume-fit", "ecademictube-chat"],
+  },
+  "REST APIs": {
+    note: "Wiring AI parsing, matching and scoring APIs into the UI.",
+    projects: ["hiremanage", "resume-fit"],
+  },
+  WebSockets: {
+    note: "Live evaluation updates without refreshing the page.",
+    projects: ["hiremanage"],
+  },
+  "Socket.io": {
+    note: "Real-time messages, typing indicators and online presence.",
+    projects: ["ecademictube-chat"],
+  },
+  Razorpay: {
+    note: "Payment gateway integration for e-commerce work.",
+    projects: [],
+  },
+  Stripe: {
+    note: "Payment gateway integration for e-commerce work.",
+    projects: [],
+  },
+  JWT: {
+    note: "Token-based sign-in and session handling.",
+    projects: ["ecademictube-chat"],
+  },
   OAuth: { note: "Third-party sign-in flows.", projects: [] },
-  "Protected routes": { note: "Pages that only the right roles can reach.", projects: ["hiremanage", "ecademictube-chat"] },
-  "Session management": { note: "Keeping users signed in safely across visits.", projects: ["ecademictube-chat"] },
+  "Protected routes": {
+    note: "Pages that only the right roles can reach.",
+    projects: ["hiremanage", "ecademictube-chat"],
+  },
+  "Session management": {
+    note: "Keeping users signed in safely across visits.",
+    projects: ["ecademictube-chat"],
+  },
   Git: { note: "Version control on every project.", projects: [] },
-  GitLab: { note: "Team repositories, merge requests and reviews.", projects: [] },
-  Bitbucket: { note: "Team repositories, pull requests and reviews.", projects: [] },
-  Postman: { note: "Testing every API before it touches the UI.", projects: [] },
+  GitLab: {
+    note: "Team repositories, merge requests and reviews.",
+    projects: [],
+  },
+  Bitbucket: {
+    note: "Team repositories, pull requests and reviews.",
+    projects: [],
+  },
+  Postman: {
+    note: "Testing every API before it touches the UI.",
+    projects: [],
+  },
   "AWS EC2": { note: "Deploying and managing production apps.", projects: [] },
   Hostinger: { note: "Deploying and managing production apps.", projects: [] },
   PuTTY: { note: "Server access for deployments.", projects: [] },
   Figma: { note: "Turning designers' handoffs into working UI.", projects: [] },
-  "Zoho Sprints": { note: "Sprint planning and tracking with the team.", projects: [] },
+  "Zoho Sprints": {
+    note: "Sprint planning and tracking with the team.",
+    projects: [],
+  },
   Asana: { note: "Task tracking across sprints.", projects: [] },
-  "Agile / Scrum": { note: "Delivered features on time across many sprints at Apzzo.", projects: [] },
-  "Code reviews": { note: "Led reviews for a team of three and set shared coding standards.", projects: [] },
-  "Performance optimisation": { note: "About 30% faster renders through memoization and leaner components.", projects: ["ecademictube-chat"] },
-  "Component-driven architecture": { note: "Small reusable components the next developer can extend.", projects: ["hiremanage", "resume-fit", "ecademictube-chat"] },
+  "Agile / Scrum": {
+    note: "Delivered features on time across many sprints at Apzzo.",
+    projects: [],
+  },
+  "Code reviews": {
+    note: "Led reviews for a team of three and set shared coding standards.",
+    projects: [],
+  },
+  "Performance optimisation": {
+    note: "About 30% faster renders through memoization and leaner components.",
+    projects: ["ecademictube-chat"],
+  },
+  "Component-driven architecture": {
+    note: "Small reusable components the next developer can extend.",
+    projects: ["hiremanage", "resume-fit", "ecademictube-chat"],
+  },
 };
